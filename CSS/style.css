@@ -70,16 +70,20 @@ body{
     color: var(--darkBlue);
 }
 
-@media screen and (max-width: 976px){
+@media screen and (min-width: 375px) and (max-width: 768px){
     body{
         display: flex;
         flex-direction: column;
     }
     
-    
+    .container{
+        width: 50%;
+    }
 
     .attribution{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        text-align: center;
     }
 }
